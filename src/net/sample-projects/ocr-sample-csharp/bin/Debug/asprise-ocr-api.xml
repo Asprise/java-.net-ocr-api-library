@@ -1,0 +1,187 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>asprise-ocr-api</name>
+    </assembly>
+    <members>
+        <member name="T:asprise_ocr_api.AspriseOCR">
+            <summary>
+            Represents an Asprise OCR engine.
+            API for Asprise OCR C#/VB.NET SDK. Visit http://asprise.com/product/ocr for more details.
+            </summary>
+        </member>
+        <member name="F:asprise_ocr_api.AspriseOCR.SPEED_FASTEST">
+            Highest speed, accuracy may suffer - default option 
+        </member>
+        <member name="F:asprise_ocr_api.AspriseOCR.SPEED_FAST">
+            less speed, better accuracy 
+        </member>
+        <member name="F:asprise_ocr_api.AspriseOCR.SPEED_SLOW">
+            lowest speed, best accuracy 
+        </member>
+        <member name="F:asprise_ocr_api.AspriseOCR.RECOGNIZE_TYPE_TEXT">
+            Recognize  text 
+        </member>
+        <member name="F:asprise_ocr_api.AspriseOCR.RECOGNIZE_TYPE_BARCODE">
+            Recognize barcode 
+        </member>
+        <member name="F:asprise_ocr_api.AspriseOCR.RECOGNIZE_TYPE_ALL">
+            Recognize both text and barcode 
+        </member>
+        <member name="F:asprise_ocr_api.AspriseOCR.OUTPUT_FORMAT_PLAINTEXT">
+            Output recognition result as plain text 
+        </member>
+        <member name="F:asprise_ocr_api.AspriseOCR.OUTPUT_FORMAT_XML">
+            Output recognition result in XML format with additional information if coordination, confidence, runtime, etc. 
+        </member>
+        <member name="F:asprise_ocr_api.AspriseOCR.OUTPUT_FORMAT_PDF">
+            Output recognition result as searchable PDF 
+        </member>
+        <member name="F:asprise_ocr_api.AspriseOCR.LANGUAGE_ENG">
+            Languages 
+            eng (English) 
+        </member>
+        <member name="F:asprise_ocr_api.AspriseOCR.LANGUAGE_SPA">
+            spa (Spanish) 
+        </member>
+        <member name="F:asprise_ocr_api.AspriseOCR.LANGUAGE_POR">
+            por (Portuguese) 
+        </member>
+        <member name="F:asprise_ocr_api.AspriseOCR.LANGUAGE_DEU">
+            deu (German) 
+        </member>
+        <member name="F:asprise_ocr_api.AspriseOCR.LANGUAGE_FRA">
+            fra (French) 
+        </member>
+        <member name="F:asprise_ocr_api.AspriseOCR.PROP_BLOCK_LEVEL">
+            Recognition level. Optional. Valid values: multi (multi-line, default), single, word 
+        </member>
+        <member name="F:asprise_ocr_api.AspriseOCR.PROP_INCLUDE_EMPTY_BLOCK">
+            Whether empty blocks should be returned. Optional. Valid values: false (default), true. 
+        </member>
+        <member name="F:asprise_ocr_api.AspriseOCR.PROP_PDF_OUTPUT_FILE">
+            PDF output file - required for PDF output. Valid prop value: absolute path to the target output file. 
+        </member>
+        <member name="F:asprise_ocr_api.AspriseOCR.PROP_PDF_OUTPUT_IMAGE_DPI">
+            The DPI of the images or '0' to auto-detect. Optional. Valid prop value: 0(default: auto-detect), 300, 200, etc. 
+        </member>
+        <member name="F:asprise_ocr_api.AspriseOCR.PROP_PDF_OUTPUT_FONT">
+            Font to be used for PDF output. Optional. Valid values: "serif" (default), "sans". 
+        </member>
+        <member name="F:asprise_ocr_api.AspriseOCR.PROP_PDF_OUTPUT_TEXT_VISIBLE">
+            Make text visible - for debugging and analysis purpose. Optional. Valid prop values false(default), true. 
+        </member>
+        <member name="F:asprise_ocr_api.AspriseOCR.PROP_PDF_OUTPUT_IMAGE_FORCE_BW">
+            Convert images into black/white to reduce PDF output file size. Optional. Valid prop values: false(default), true.
+        </member>
+        <member name="F:asprise_ocr_api.AspriseOCR.PAGES_ALL">
+            Recognize all pages. 
+        </member>
+        <member name="F:asprise_ocr_api.AspriseOCR.CONFIG_PROP_SEPARATOR">
+            Do not change unless you are told so. 
+        </member>
+        <member name="F:asprise_ocr_api.AspriseOCR.CONFIG_PROP_KEY_VALUE_SEPARATOR">
+            Do not change unless you are told so. 
+        </member>
+        <member name="M:asprise_ocr_api.AspriseOCR.StartEngine(System.String,System.String)">
+            <summary>
+            Starts the OCR engine; does nothing if the engine has already been started.
+            </summary>
+            <param name="lang">e.g., "eng"</param>
+            <param name="speed">e.g., "fastest"</param>
+        </member>
+        <member name="M:asprise_ocr_api.AspriseOCR.StopEngine">
+            <summary>
+            Stops the OCR engine; does nothing if it has already been stopped.
+            </summary>
+        </member>
+        <member name="M:asprise_ocr_api.AspriseOCR.Recognize(System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.String,System.Object[])">
+            <summary>
+            Performs OCR on the given input files.
+            </summary>
+            <param name="files">comma ',' separated image file path (JPEG, BMP, PNG, TIFF)</param>
+            <param name="pageIndex">-1 for all pages or the specified page (first page is 1) for multi-page image format like TIFF</param>
+            <param name="startX">-1 for whole page or the starting x coordinate of the specified region</param>
+            <param name="startY">-1 for whole page or the starting y coordinate of the specified region</param>
+            <param name="width">-1 for whole page or the width of the specified region</param>
+            <param name="height">-1 for whole page or the height of the specified region</param>
+            <param name="recognizeType">valid values: RECOGNIZE_TYPE_TEXT, RECOGNIZE_TYPE_BARCODE or RECOGNIZE_TYPE_ALL.</param>
+            <param name="outputFormat">valid values: OUTPUT_FORMAT_PLAINTEXT or OUTPUT_FORMAT_XML.</param>
+            <param name="additionalProperties">additional properties, can be a single Dictionary object or inline specification in pairs. Valid property names are defined in this class, e.g., PROP_INCLUDE_EMPTY_BLOCK, etc.</param>
+            <returns>text (plain text, xml) recognized for OUTPUT_FORMAT_PLAINTEXT, OUTPUT_FORMAT_XML; empty for OUTPUT_FORMAT_PDF.</returns>
+        </member>
+        <member name="M:asprise_ocr_api.AspriseOCR.GetLibraryVersion">
+            <summary>
+            The library version.
+            </summary>
+            <returns>The library version.</returns>
+        </member>
+        <member name="M:asprise_ocr_api.AspriseOCR.SetUp">
+            <summary>
+            Performs one-time setup; does nothing if setup has already been done.
+            </summary>
+        </member>
+        <member name="M:asprise_ocr_api.AspriseOCR.getOcrDllPath">
+            <summary>
+            Search PATH and return the location of the ocr dll.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:asprise_ocr_api.AspriseOCR.getOcrDllName">
+            <summary>
+            The simple name of the ocr dll file.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:asprise_ocr_api.AspriseOCR.detectOcrDllInParentFolders">
+            <summary>
+            Search the ancester directories and return the directory that contains ocr dll or null if not found.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:asprise_ocr_api.AspriseOCR.searchFileInPath(System.String)">
+            <summary>
+            Returns the absolute path of the first occurrence
+            </summary>
+            <param name="fileSimpleName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:asprise_ocr_api.AspriseOCR.addToSystemPath(System.String)">
+            <summary>
+            Adds the given directory to the PATH variable.
+            </summary>
+            <param name="dir"></param>
+        </member>
+        <member name="M:asprise_ocr_api.AspriseOCR.objectToString(System.Object,System.Boolean)">
+            <summary>
+            Returns the ToString() for non-null object or ""/"null" for null.
+            </summary>
+            <param name="obj">target object</param>
+            <param name="nullAsEmpty">true to return "" for null; false "null"</param>
+            <returns></returns>
+        </member>
+        <member name="M:asprise_ocr_api.AspriseOCR.firstNonNull(System.Object,System.Object[])">
+            <summary>
+            Returns the first non-null object or null if all arguments are null.
+            </summary>
+            <param name="o"></param>
+            <param name="others"></param>
+            <returns></returns>
+        </member>
+        <member name="P:asprise_ocr_api.AspriseOCR.IsEngineRunning">
+            <summary>
+            Whether the OCR engine is currently running.
+            </summary>
+        </member>
+        <member name="T:asprise_ocr_api.AspriseOCR.OcrDll32">
+            <summary>
+            Unmanaged code access (32bit).
+            </summary>
+        </member>
+        <member name="T:asprise_ocr_api.AspriseOCR.OcrDll64">
+            <summary>
+            Unmanaged code access (64bit).
+            </summary>
+        </member>
+    </members>
+</doc>

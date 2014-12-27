@@ -1,0 +1,17 @@
+C:\J\dev-projects\asprise\ocr\projects\c\sample-projects\ocr-samples-vs\ocr-sample-vb\bin\Release\ocr-sample-vb.exe.config
+C:\J\dev-projects\asprise\ocr\projects\c\sample-projects\ocr-samples-vs\ocr-sample-vb\bin\Release\ocr-sample-vb.exe.manifest
+C:\J\dev-projects\asprise\ocr\projects\c\sample-projects\ocr-samples-vs\ocr-sample-vb\bin\Release\ocr-sample-vb.application
+C:\J\dev-projects\asprise\ocr\projects\c\sample-projects\ocr-samples-vs\ocr-sample-vb\bin\Release\ocr-sample-vb.exe
+C:\J\dev-projects\asprise\ocr\projects\c\sample-projects\ocr-samples-vs\ocr-sample-vb\bin\Release\ocr-sample-vb.pdb
+C:\J\dev-projects\asprise\ocr\projects\c\sample-projects\ocr-samples-vs\ocr-sample-vb\bin\Release\ocr-sample-vb.xml
+C:\J\dev-projects\asprise\ocr\projects\c\sample-projects\ocr-samples-vs\ocr-sample-vb\bin\Release\asprise-ocr-api.dll
+C:\J\dev-projects\asprise\ocr\projects\c\sample-projects\ocr-samples-vs\ocr-sample-vb\bin\Release\asprise-ocr-api.pdb
+C:\J\dev-projects\asprise\ocr\projects\c\sample-projects\ocr-samples-vs\ocr-sample-vb\obj\Release\ocr-sample-vb.vbprojResolveAssemblyReference.cache
+C:\J\dev-projects\asprise\ocr\projects\c\sample-projects\ocr-samples-vs\ocr-sample-vb\obj\Release\ocr_sample_vb.Form1.resources
+C:\J\dev-projects\asprise\ocr\projects\c\sample-projects\ocr-samples-vs\ocr-sample-vb\obj\Release\ocr_sample_vb.Resources.resources
+C:\J\dev-projects\asprise\ocr\projects\c\sample-projects\ocr-samples-vs\ocr-sample-vb\obj\Release\ocr-sample-vb.vbproj.GenerateResource.Cache
+C:\J\dev-projects\asprise\ocr\projects\c\sample-projects\ocr-samples-vs\ocr-sample-vb\obj\Release\ocr-sample-vb.exe.manifest
+C:\J\dev-projects\asprise\ocr\projects\c\sample-projects\ocr-samples-vs\ocr-sample-vb\obj\Release\ocr-sample-vb.application
+C:\J\dev-projects\asprise\ocr\projects\c\sample-projects\ocr-samples-vs\ocr-sample-vb\obj\Release\ocr-sample-vb.exe
+C:\J\dev-projects\asprise\ocr\projects\c\sample-projects\ocr-samples-vs\ocr-sample-vb\obj\Release\ocr-sample-vb.xml
+C:\J\dev-projects\asprise\ocr\projects\c\sample-projects\ocr-samples-vs\ocr-sample-vb\obj\Release\ocr-sample-vb.pdb

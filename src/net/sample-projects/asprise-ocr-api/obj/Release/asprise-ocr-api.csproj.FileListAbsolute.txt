@@ -1,0 +1,10 @@
+C:\J\dev-projects\asprise\ocr\projects\c\sample-projects\ocr-samples-vs\asprise-ocr-api\bin\Release\asprise-ocr-api.dll
+C:\J\dev-projects\asprise\ocr\projects\c\sample-projects\ocr-samples-vs\asprise-ocr-api\bin\Release\asprise-ocr-api.pdb
+C:\J\dev-projects\asprise\ocr\projects\c\sample-projects\ocr-samples-vs\asprise-ocr-api\obj\Release\asprise-ocr-api.csprojResolveAssemblyReference.cache
+C:\J\dev-projects\asprise\ocr\projects\c\sample-projects\ocr-samples-vs\asprise-ocr-api\obj\Release\asprise-ocr-api.dll
+C:\J\dev-projects\asprise\ocr\projects\c\sample-projects\ocr-samples-vs\asprise-ocr-api\obj\Release\asprise-ocr-api.pdb
+C:\J\dev-projects\asprise\ocr\projects\c\sample-projects\codeplex\ocr\asprise-ocr-api\bin\Release\asprise-ocr-api.dll
+C:\J\dev-projects\asprise\ocr\projects\c\sample-projects\codeplex\ocr\asprise-ocr-api\bin\Release\asprise-ocr-api.pdb
+C:\J\dev-projects\asprise\ocr\projects\c\sample-projects\codeplex\ocr\asprise-ocr-api\obj\Release\asprise-ocr-api.csprojResolveAssemblyReference.cache
+C:\J\dev-projects\asprise\ocr\projects\c\sample-projects\codeplex\ocr\asprise-ocr-api\obj\Release\asprise-ocr-api.dll
+C:\J\dev-projects\asprise\ocr\projects\c\sample-projects\codeplex\ocr\asprise-ocr-api\obj\Release\asprise-ocr-api.pdb

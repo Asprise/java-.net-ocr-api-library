@@ -1,0 +1,11 @@
+C:\J\dev-projects\asprise\ocr\projects\c\sample-projects\codeplex\ocr\ocr-sample-csharp\bin\x86\Release\ocr-sample-csharp.exe.config
+C:\J\dev-projects\asprise\ocr\projects\c\sample-projects\codeplex\ocr\ocr-sample-csharp\obj\x86\Release\ocr-sample-csharp.csprojResolveAssemblyReference.cache
+C:\J\dev-projects\asprise\ocr\projects\c\sample-projects\codeplex\ocr\ocr-sample-csharp\obj\x86\Release\ocr_sample_csharp.Form1.resources
+C:\J\dev-projects\asprise\ocr\projects\c\sample-projects\codeplex\ocr\ocr-sample-csharp\obj\x86\Release\ocr_sample_csharp.Properties.Resources.resources
+C:\J\dev-projects\asprise\ocr\projects\c\sample-projects\codeplex\ocr\ocr-sample-csharp\obj\x86\Release\ocr-sample-csharp.csproj.GenerateResource.Cache
+C:\J\dev-projects\asprise\ocr\projects\c\sample-projects\codeplex\ocr\ocr-sample-csharp\bin\x86\Release\ocr-sample-csharp.exe
+C:\J\dev-projects\asprise\ocr\projects\c\sample-projects\codeplex\ocr\ocr-sample-csharp\bin\x86\Release\ocr-sample-csharp.pdb
+C:\J\dev-projects\asprise\ocr\projects\c\sample-projects\codeplex\ocr\ocr-sample-csharp\bin\x86\Release\asprise-ocr-api.dll
+C:\J\dev-projects\asprise\ocr\projects\c\sample-projects\codeplex\ocr\ocr-sample-csharp\bin\x86\Release\asprise-ocr-api.pdb
+C:\J\dev-projects\asprise\ocr\projects\c\sample-projects\codeplex\ocr\ocr-sample-csharp\obj\x86\Release\ocr-sample-csharp.exe
+C:\J\dev-projects\asprise\ocr\projects\c\sample-projects\codeplex\ocr\ocr-sample-csharp\obj\x86\Release\ocr-sample-csharp.pdb

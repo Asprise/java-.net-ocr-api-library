@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ocr-sample-csharp", "ocr-sample-csharp\ocr-sample-csharp.csproj", "{0E3149A4-B10D-4E5D-BB65-A7BDCD0CC5CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "asprise-ocr-api", "asprise-ocr-api\asprise-ocr-api.csproj", "{B852883E-37B8-4921-9DCD-39A3895364B0}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ocr-sample-vb", "ocr-sample-vb\ocr-sample-vb.vbproj", "{6379E481-65F1-4DBA-AD67-78CDD6445A65}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E3149A4-B10D-4E5D-BB65-A7BDCD0CC5CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E3149A4-B10D-4E5D-BB65-A7BDCD0CC5CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E3149A4-B10D-4E5D-BB65-A7BDCD0CC5CD}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{0E3149A4-B10D-4E5D-BB65-A7BDCD0CC5CD}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{0E3149A4-B10D-4E5D-BB65-A7BDCD0CC5CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E3149A4-B10D-4E5D-BB65-A7BDCD0CC5CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E3149A4-B10D-4E5D-BB65-A7BDCD0CC5CD}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{0E3149A4-B10D-4E5D-BB65-A7BDCD0CC5CD}.Release|Mixed Platforms.Build.0 = Release|x86
+		{B852883E-37B8-4921-9DCD-39A3895364B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B852883E-37B8-4921-9DCD-39A3895364B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B852883E-37B8-4921-9DCD-39A3895364B0}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{B852883E-37B8-4921-9DCD-39A3895364B0}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{B852883E-37B8-4921-9DCD-39A3895364B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B852883E-37B8-4921-9DCD-39A3895364B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B852883E-37B8-4921-9DCD-39A3895364B0}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{B852883E-37B8-4921-9DCD-39A3895364B0}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{6379E481-65F1-4DBA-AD67-78CDD6445A65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6379E481-65F1-4DBA-AD67-78CDD6445A65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6379E481-65F1-4DBA-AD67-78CDD6445A65}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{6379E481-65F1-4DBA-AD67-78CDD6445A65}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{6379E481-65F1-4DBA-AD67-78CDD6445A65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6379E481-65F1-4DBA-AD67-78CDD6445A65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6379E481-65F1-4DBA-AD67-78CDD6445A65}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{6379E481-65F1-4DBA-AD67-78CDD6445A65}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
